@@ -1,18 +1,23 @@
 <template>
-  <h1>Hi, I am App.vue </h1>
-  <p>test watch</p>
-  <Hi/>
-  <counter />
+	<bind-class/>
 </template>
 
 <script>
-import Hi from './components/Hi.vue'
-import Counter  from './components/Counter.vue'
+import BindClass from './components/BindClass.vue'
 export default {
+
   name: 'App',
   components: {
-    Hi,
-	Counter
+    BindClass
+  },
+  data(){
+	  //return {count: 1}
+	  return{
+		  
+	  }
+  },
+  created(){
+	  //console.log('count is: '+ this.count);
   }
 }
 </script>
