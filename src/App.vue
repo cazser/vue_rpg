@@ -1,15 +1,16 @@
 <template>
-	<bind-class/>
+	<Hi/>
+	<hi/>
 </template>
 
 <script>
-import BindClass from './components/BindClass.vue'
+import Hi from './components/Hi.vue'
 export default {
-
+ 
   name: 'App',
   components: {
-    BindClass
-  },
+	  Hi
+},
   data(){
 	  //return {count: 1}
 	  return{
