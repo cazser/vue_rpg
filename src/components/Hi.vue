@@ -18,3 +18,8 @@
 	}
 	})
 </script>
+<style lang="scss" scoped>
+	div{
+		color: navy;
+	}
+</style>
